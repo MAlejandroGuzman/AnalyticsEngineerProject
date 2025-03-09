@@ -1,0 +1,26 @@
+dbtlearn:
+  outputs:
+    dev:
+      account: udrzygf-jt32451
+      database: AIRBNB
+      password: dbtPassword123
+      role: transform
+      schema: DEV
+      threads: 1
+      type: snowflake
+      user: dbt
+      warehouse: COMPUTE_WH
+  target: dev
+dbtlearn_2:
+  outputs:
+    dev:
+      account: udrzygf-jt32451
+      database: MANGA
+      password: dbtPassword123
+      role: transform
+      schema: RAW
+      threads: 1
+      type: snowflake
+      user: dbt
+      warehouse: COMPUTE_WH
+  target: dev
