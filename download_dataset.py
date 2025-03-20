@@ -1,8 +1,8 @@
 # Descargar datasets de Kaggle
-Solicitar en Kaggle el archivo JSON siguiento esta ruta: Settings > API > Create new token
+#Solicitar en Kaggle el archivo JSON siguiento esta ruta: Settings > API > Create new token
 
-Despues guardar el archivo JSON dentro de una nueva carpeta generada llamada .JSON dentro de la siguiente ruta C:\Users\<User_name>\
-hacer un mkdir con una carpeta llamada .kaggle
+#Despues guardar el archivo JSON dentro de una nueva carpeta generada llamada .JSON dentro de la siguiente ruta C:\Users\<User_name>\
+#hacer un mkdir con una carpeta llamada .kaggle
 
 import os
 import zipfile
